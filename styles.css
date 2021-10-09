@@ -1,0 +1,33 @@
+* {
+    font-family: 'Unispace';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin-top: 100px;
+}
+
+select, input {
+    margin-bottom: 50px;
+    height: 30px;
+}
+
+label {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#submit {
+    height: 75px;
+}
